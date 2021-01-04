@@ -1,0 +1,3 @@
+C:/Users/ht19a084/Documents/Class/GroupePrograming/SogoEnshu2/cmake-build-debug/CMakeFiles/SogoEnshu2.dir
+C:/Users/ht19a084/Documents/Class/GroupePrograming/SogoEnshu2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ht19a084/Documents/Class/GroupePrograming/SogoEnshu2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
