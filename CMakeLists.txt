@@ -3,4 +3,4 @@ project(SogoEnshu2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SogoEnshu2 main.cpp input_func.cpp input_func.h)
+add_executable(SogoEnshu2 main.cpp)
