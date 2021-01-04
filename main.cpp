@@ -2,7 +2,7 @@
  * @author Shintaro Matsumoto
  * @date 2020/12/11 新規作成
  * @see https://icpc.iisf.or.jp/past-icpc/domestic2019/problems/ja/contest/all_ja.html
- * 最新版: https://github.com/matsushinDB11/gp_prog_class/tree/master/SogoEnshu2
+ * 最新版: https://github.com/matsushinDB11/GPprog_Enshu2
  */
 
 #include <iostream>
