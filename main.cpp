@@ -20,11 +20,10 @@ int sum_of_array(int x[]){
 int main() {
     while (true){
         int num_of_students, num_of_subjects;
-        cin >> num_of_students;
         cin >> num_of_subjects;
+        cin >> num_of_students;
         // 入力が2つの0だった場合終了
         if (num_of_students == 0 && num_of_subjects == 0) break;
-        //
         int total_score_of_each_student[num_of_students];
         for (int i = 0; i < num_of_students; ++i) {
             int points_array[num_of_subjects];
