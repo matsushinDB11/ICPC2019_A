@@ -6,7 +6,6 @@
  */
 
 #include <iostream>
-#include <fstream>
 using namespace std;
 
 int sum_of_array(int x[]){
@@ -19,16 +18,10 @@ int sum_of_array(int x[]){
 }
 
 int main() {
-    ifstream fin;
-    fin.open("input_file.txt");
-    if (!fin) {
-        cout << "Can't file open" << endl;
-        return 1;
-    }
     while (true){
         int num_of_students, num_of_subjects;
-        fin >> num_of_students;
-        fin >> num_of_subjects;
+        cin >> num_of_students;
+        cin >> num_of_subjects;
         // 入力が2つの0だった場合終了
         if (num_of_students == 0 && num_of_subjects == 0) break;
         //
@@ -36,7 +29,7 @@ int main() {
         for (int i = 0; i < num_of_students; ++i) {
             int points_array[num_of_subjects];
             for (int j = 0; j < num_of_subjects; ++j) {
-                fin >> points_array[j];
+                cin >> points_array[j];
             }
             // 各生徒の合計点
             int sum_of_point = sum_of_array(points_array);
@@ -44,6 +37,5 @@ int main() {
             cout << sum_of_point << endl;
         }
     }
-    fin.close();
     return 0;
 }
