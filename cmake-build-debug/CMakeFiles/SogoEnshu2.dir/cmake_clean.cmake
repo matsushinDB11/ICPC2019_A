@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SogoEnshu2.dir/input_func.cpp.obj"
   "CMakeFiles/SogoEnshu2.dir/main.cpp.obj"
   "SogoEnshu2.exe"
   "SogoEnshu2.exe.manifest"

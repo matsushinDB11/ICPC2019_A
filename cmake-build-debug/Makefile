@@ -142,33 +142,6 @@ SogoEnshu2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SogoEnshu2.dir\build.make CMakeFiles/SogoEnshu2.dir/build
 .PHONY : SogoEnshu2/fast
 
-input_func.obj: input_func.cpp.obj
-
-.PHONY : input_func.obj
-
-# target to build an object file
-input_func.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SogoEnshu2.dir\build.make CMakeFiles/SogoEnshu2.dir/input_func.cpp.obj
-.PHONY : input_func.cpp.obj
-
-input_func.i: input_func.cpp.i
-
-.PHONY : input_func.i
-
-# target to preprocess a source file
-input_func.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SogoEnshu2.dir\build.make CMakeFiles/SogoEnshu2.dir/input_func.cpp.i
-.PHONY : input_func.cpp.i
-
-input_func.s: input_func.cpp.s
-
-.PHONY : input_func.s
-
-# target to generate assembly for a file
-input_func.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SogoEnshu2.dir\build.make CMakeFiles/SogoEnshu2.dir/input_func.cpp.s
-.PHONY : input_func.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -205,9 +178,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SogoEnshu2
-	@echo ... input_func.obj
-	@echo ... input_func.i
-	@echo ... input_func.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/matsu_000/Documents/Sorcefile/GPprog_Enshu2/input_func.cpp">
-			<Option target="SogoEnshu2"/>
-		</Unit>
-		<Unit filename="C:/Users/matsu_000/Documents/Sorcefile/GPprog_Enshu2/input_func.h">
-			<Option target="SogoEnshu2"/>
-		</Unit>
 		<Unit filename="C:/Users/matsu_000/Documents/Sorcefile/GPprog_Enshu2/main.cpp">
 			<Option target="SogoEnshu2"/>
 		</Unit>
