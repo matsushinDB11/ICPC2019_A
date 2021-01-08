@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/matsu_000/Documents/Sorcefile/GPprog_Enshu2/main.cpp">
 			<Option target="SogoEnshu2"/>
 		</Unit>
+		<Unit filename="C:/Users/matsu_000/Documents/Sorcefile/GPprog_Enshu2/max_of_array.cpp">
+			<Option target="SogoEnshu2"/>
+		</Unit>
+		<Unit filename="C:/Users/matsu_000/Documents/Sorcefile/GPprog_Enshu2/max_of_array.h">
+			<Option target="SogoEnshu2"/>
+		</Unit>
 		<Unit filename="C:/Users/matsu_000/Documents/Sorcefile/GPprog_Enshu2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

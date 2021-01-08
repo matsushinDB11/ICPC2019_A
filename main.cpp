@@ -5,9 +5,10 @@
  * 最新版: https://github.com/matsushinDB11/GPprog_Enshu2
  */
 
+#include "max_of_array.h"
 #include <iostream>
-#include <algorithm>
 using namespace std;
+
 
 int main() {
     while (true){
@@ -32,7 +33,7 @@ int main() {
             }
             sum_of_points[j] = sum_of_point;
         }
-                int max_sum_of_point = *max_element(sum_of_points, sum_of_points + num_of_students);
+        int max_sum_of_point = max_of_array(sum_of_points, num_of_students);
                 cout << max_sum_of_point << endl;
     }
     return 0;

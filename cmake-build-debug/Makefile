@@ -169,6 +169,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SogoEnshu2.dir\build.make CMakeFiles/SogoEnshu2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+max_of_array.obj: max_of_array.cpp.obj
+
+.PHONY : max_of_array.obj
+
+# target to build an object file
+max_of_array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SogoEnshu2.dir\build.make CMakeFiles/SogoEnshu2.dir/max_of_array.cpp.obj
+.PHONY : max_of_array.cpp.obj
+
+max_of_array.i: max_of_array.cpp.i
+
+.PHONY : max_of_array.i
+
+# target to preprocess a source file
+max_of_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SogoEnshu2.dir\build.make CMakeFiles/SogoEnshu2.dir/max_of_array.cpp.i
+.PHONY : max_of_array.cpp.i
+
+max_of_array.s: max_of_array.cpp.s
+
+.PHONY : max_of_array.s
+
+# target to generate assembly for a file
+max_of_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SogoEnshu2.dir\build.make CMakeFiles/SogoEnshu2.dir/max_of_array.cpp.s
+.PHONY : max_of_array.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... max_of_array.obj
+	@echo ... max_of_array.i
+	@echo ... max_of_array.s
 .PHONY : help
 
 
