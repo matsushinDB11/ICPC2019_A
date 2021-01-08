@@ -2,7 +2,7 @@
  * @author Shintaro Matsumoto
  * @date 2020/12/11 新規作成
  * @see https://icpc.iisf.or.jp/past-icpc/domestic2019/problems/ja/contest/all_ja.html
- * 最新版: https://github.com/matsushinDB11/GPprog_Enshu2
+ * 最新版: https://github.com/matsushinDB11/ICPC2019_A
  */
 
 #include "max_of_array.h"
