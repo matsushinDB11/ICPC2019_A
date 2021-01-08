@@ -34,7 +34,7 @@ int main() {
             sum_of_points[j] = sum_of_point;
         }
         int max_sum_of_point = max_of_array(sum_of_points, num_of_students);
-                cout << max_sum_of_point << endl;
+        cout << max_sum_of_point << endl;
     }
     return 0;
 }
