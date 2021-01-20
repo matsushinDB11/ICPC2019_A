@@ -21,11 +21,11 @@ int main() {
         // エラー処理
         if (num_of_students < 1 || num_of_students > 1000) {
             cout << "生徒数が無効な値です" << endl;
-            continue;
+            break;
         }
         if (num_of_subjects < 1 || num_of_subjects > 50) {
             cout << "科目数が無効な値です" << endl;
-            continue;
+            break;
         }
         // 得点格納用二次元配列
         int points_array[num_of_subjects][num_of_students];
