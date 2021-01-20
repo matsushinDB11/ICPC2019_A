@@ -2,16 +2,16 @@
  * @author Shintaro Matsumoto
  * @date 2020/12/11 新規作成
  * @see https://icpc.iisf.or.jp/past-icpc/domestic2019/problems/ja/contest/all_ja.html
- * 最新版: https://github.com/matsushinDB11/ICPC2019_A
  */
+// Copyright [2021] <松本紳太郎>
 
-#include "max_of_array.h"
 #include <iostream>
+#include "ICPC2019A/max_of_array.h"
 using namespace std;
 
 
 int main() {
-    while (true){
+    while (true) {
         int num_of_students, num_of_subjects;
         cin >> num_of_students;
         cin >> num_of_subjects;
@@ -28,7 +28,7 @@ int main() {
         int sum_of_points[num_of_students];
         for (int j = 0; j < num_of_students; ++j) {
             int sum_of_point = 0;
-            for  (int i = 0; i < num_of_subjects; ++i){
+            for  (int i = 0; i < num_of_subjects; ++i) {
                 sum_of_point += points_array[i][j];
             }
             sum_of_points[j] = sum_of_point;
