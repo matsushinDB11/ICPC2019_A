@@ -18,6 +18,15 @@ int main() {
         cin >> num_of_subjects;
         // 入力が2つの0だった場合終了
         if (num_of_students == 0 && num_of_subjects == 0) break;
+        // エラー処理
+        if (num_of_students < 1 || num_of_students > 1000) {
+            cout << "生徒数が無効な値です" << endl;
+            continue;
+        }
+        if (num_of_subjects < 1 || num_of_subjects > 50) {
+            cout << "科目数が無効な値です" << endl;
+            continue;
+        }
         // 得点格納用二次元配列
         int points_array[num_of_subjects][num_of_students];
         // 各教科の得点を二次元配列に入力
